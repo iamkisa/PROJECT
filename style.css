@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+     padding: 0;
+}
+nav{
+	border: 1px solid;
+}
+.home{
+	border: 1px solid red;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background: url('./images/desktop/image-header.jpg');
+	background-size: 100%;
+}
+.home h1{
+	color: white;
+	font-size: 3.1rem;
+	letter-spacing: 15px;
+	margin-bottom: 20px;
+text-transform: uppercase;
+
+}
+.flex-items {
+	border: 1px solid red;
+}
+.flex-items .each-flex-item{
+	display:grid;
+	grid-template-columns:50% 50%;
+}
+.flex-items .each-flex-item .mytext{}
